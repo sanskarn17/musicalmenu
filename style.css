@@ -37,8 +37,21 @@
     color: tomato;
 }
 .header{
-    background-image: url('pexels-stas-knop-1626481.jpg');
-    height: 91vh;
+    background: url('4.jpg') no-repeat center center fixed;
+    height: 92vh;
     background-repeat: no-repeat;
-    
+    background-size: cover ;
+}
+.header div{
+    /* color: rgb(227, 217, 18); */
+    color: tomato;
+    /* background: rgba(232, 69, 9, 0.6); */
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
 }

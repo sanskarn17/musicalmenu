@@ -68,14 +68,14 @@
         <div class="contact-div" id="img">
             <h1 class="f-h1">Contact Us</h1>
             <div class="form">
-                <form action="" autocomplete="on">
+                <form action="" autocomplete="off" method="POST" name="musicalmenu-sheet">
                     <label for="fullname">Name</label>
-                    <input type="text" name="fullname" placeholder="Fullname" required><br>
+                    <input type="text" name="Name" placeholder="Enter Your Fullname" required><br>
                     <label for="email">Email</label>
-                    <input type="email" name="email" placeholder="Email" required><br>
+                    <input type="email" name="Email" placeholder="Enter Your Email" required><br>
                     <label for="phone">Phone</label>
-                    <input type="tel" name="phone" placeholder="Phone" maxlength="10" minlength="10"><br>
-                    <button class="f-btn">Submit</button>
+                    <input type="tel" name="Phone" placeholder="Enter Your Mobile Number" maxlength="10" minlength="10"><br>
+                    <button class="f-btn" type="submit" name="submit" value="Send message">Submit</button>
                 </form>
             </div>
         </div>
@@ -84,5 +84,20 @@
         <h1> <span> Mus</span>ical <span> M</span>enu</h1>
         <p>&copy 2021</p>
     </footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz8gwYtm7OjPWX-fbEdEC4f5woEImCf-KZ0RYrLg-WpfenmH_bta-qpn7GWJYdB4va5rA/exec'
+            const form = document.forms['musicalmenu-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
 </body>
 </html>

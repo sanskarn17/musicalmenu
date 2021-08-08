@@ -165,7 +165,7 @@ input{
     border: 8px solid tomato;
     border-radius: .8rem;
     margin-bottom: 1.5rem;
-
+    outline: none;
 }
 .f-h1{
     font-size: 3rem;

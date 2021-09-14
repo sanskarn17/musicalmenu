@@ -1,2 +1,2 @@
 # musicalmenu
-Here's the link : http://sanskarn17.me/musicalmenu/
+Here's the link : https://sanskarn17.me/musicalmenu/

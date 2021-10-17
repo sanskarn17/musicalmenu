@@ -44,7 +44,7 @@
 }
 .header div{
     /* color: rgb(227, 217, 18); */
-    color: tomato;
+    color: serif;
     /* background: rgba(232, 69, 9, 0.6); */
     background: rgba(0, 0, 0, 0.7);
     height: 100%;
@@ -113,10 +113,12 @@
     height: 100%;
 }
 .about-h1{
-    font-size: 3rem;
-    background-color: tomato;
+    font-size: 50px;
+    background-color: rgb(238, 151, 135);
     margin: 0 35rem 0 35rem;
-    border-radius: 4rem;
+    border-radius: 10rem;
+    width: 120;
+    height: 120;
     color: black;
     font-family: 'Roboto' , sans-serif;
     text-align: center;   

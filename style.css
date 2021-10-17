@@ -81,9 +81,8 @@
     flex: 1;
 }
 .container{
-    width: 100%;
     margin: 10px auto;
-    /* width: 74rem; */
+    width: 74rem;
 }
 .instrument-h{
     text-align: center;
@@ -107,15 +106,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height:90vh;
-    
+
 }
-/* #img-abt{
-    background: url(7.png);
-    height: 100%;
-    background-size: cover;
-    height: 40rem;
-    width: 50rem;
-} */
 #about div{
     /* background: rgba(0, 0, 0, 0.4); */
     height: 100%;
@@ -165,7 +157,7 @@
 .form{
     text-align: right;
     margin-left: 50rem;
-    margin-top: 9.5rem;
+    margin-top: 9.5rem ;
 }
 input{
     height: 3.5rem;
@@ -200,7 +192,6 @@ label{
 }
 footer{
     background-color: #2f2e41;
-    width: 100%;
     color: whitesmoke;
     text-align: center;
     font-family: 'Lobster', display;
